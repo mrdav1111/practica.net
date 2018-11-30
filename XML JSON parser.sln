@@ -5,6 +5,30 @@ VisualStudioVersion = 15.0.28307.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XML JSON parser", "XML JSON parser\XML JSON parser.csproj", "{02472AE7-F23C-4F0A-9C79-7DF29E8F6D5B}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SOAP Suma", "SOAP Suma\", "{6613F4BB-9C02-4827-9676-7C26BB1E1C48}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_4659"
+		Debug.AspNetCompiler.PhysicalPath = "SOAP Suma\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4659\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_4659"
+		Release.AspNetCompiler.PhysicalPath = "SOAP Suma\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4659\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "4659"
+		SlnRelativePath = "SOAP Suma\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEBAPI Suma", "WEBAPI Suma\WEBAPI Suma.csproj", "{54668487-1472-4778-8736-6AB922F2861C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +39,14 @@ Global
 		{02472AE7-F23C-4F0A-9C79-7DF29E8F6D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02472AE7-F23C-4F0A-9C79-7DF29E8F6D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02472AE7-F23C-4F0A-9C79-7DF29E8F6D5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6613F4BB-9C02-4827-9676-7C26BB1E1C48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6613F4BB-9C02-4827-9676-7C26BB1E1C48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6613F4BB-9C02-4827-9676-7C26BB1E1C48}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6613F4BB-9C02-4827-9676-7C26BB1E1C48}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{54668487-1472-4778-8736-6AB922F2861C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54668487-1472-4778-8736-6AB922F2861C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54668487-1472-4778-8736-6AB922F2861C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54668487-1472-4778-8736-6AB922F2861C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
